@@ -43,4 +43,4 @@ def index():
 
 if __name__ == '__main__':
     # Run the application in debug mode for development
-    app.run(debug=True)
+    app.run()
