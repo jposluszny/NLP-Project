@@ -29,17 +29,17 @@ def index():
                 
                 # Logic assuming 1 is positive and 0 is negative
                 if result == 1:
-                    classification = f'The review "{review}" is POSITIVE!'
+                    classification = 'The review is POSITIVE!'
                     color = 'green'
                 else:
-                    classification = f'The review "{review}" is NEGATIVE!'
+                    classification = 'The review is NEGATIVE!'
                     color = 'red'
             except Exception as e:
                 # Basic error handling for prediction or cleaning issues
                 classification = f"An error occurred during processing: {str(e)}"
                 color = 'red'
                 
-    return render_template('index.html', classification=classification, color=color, review=review)
+    return render_template('index.html', classification=classification, color=color, review_text=review)
 
 if __name__ == '__main__':
     # Run the application in debug mode for development
