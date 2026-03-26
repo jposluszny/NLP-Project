@@ -17,7 +17,7 @@ The model analyzes restaurant reviews (based on the Yelp dataset) and classifies
 ![App Preview](app_preview.png)
 
 ### 🚀 How to Run Locally
-1. Clone the repo: `git clone https://github.com/jposluszny/yelp-sentiment-flask.git`
+1. Clone the repo: `git clone https://github.com/jposluszny/NLP-Project.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Flask app: `python app.py` (NLTK datasets will download automatically on first run)
 4. Open your browser and navigate to: `http://127.0.0.1:5000/`
