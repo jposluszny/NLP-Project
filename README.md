@@ -13,8 +13,8 @@ The model analyzes restaurant reviews (based on the Yelp dataset) and classifies
 * **Model Serialization:** Joblib
 
 ### 🖼️ Web App Preview
-![App Preview](app_preview.png)
 *Quick look at the web interface where users can submit reviews for instant sentiment classification.*
+![App Preview](app_preview.png)
 
 ### 🚀 How to Run Locally
 1. Clone the repo: `git clone https://github.com/jposluszny/yelp-sentiment-flask.git`
